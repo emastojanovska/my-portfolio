@@ -1,10 +1,3 @@
-
-@font-face {
-    src: url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2');
-    font-family:'Compressa VF';
-    font-style: normal;
-}
-
 .portfolio-name {
     transition:.8s all;
     font-family:'Compressa VF';
@@ -37,7 +30,7 @@
 
 nav{
     z-index: 2;
-    background-color: rgb(15, 15, 15);
+    background-color:var(--primary-black) ;
 }
 
 nav a.nav-link{
