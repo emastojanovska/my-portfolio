@@ -6,7 +6,7 @@ import './nav-bar.styles.css'
 const NavBar = () => {
     const name = '<My Portfolio/>'
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-4">
+        <nav className="navbar navbar-expand-lg navbar-dark p-4">
         <div className="container">
         <a className="navbar-brand portfolio-name" to="/"> {name} </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
