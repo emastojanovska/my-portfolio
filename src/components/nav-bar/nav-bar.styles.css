@@ -7,13 +7,11 @@
     text-align: center;
     font-variation-settings:  "wdth" 250, "wght" 300;
     cursor: pointer;
-    border-bottom: 0.1875rem solid var(--primary-pink);
 }
 
 .portfolio-name:hover {
     transition:.6s all;
     font-variation-settings: "wdth" 400, "wght" 1000;
-    border-bottom: 0.1875rem solid var(--primary-pink);
 }
 
 @media(max-width: 768px) {

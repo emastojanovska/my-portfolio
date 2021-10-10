@@ -4,6 +4,9 @@ import Particles from "react-particles-js"
 import Navbar from "./components/nav-bar/nav-bar.components";
 import Header from "./components/header/header.component";
 import AboutMe from './components/about-me/about-me.component';
+import TechnologyServices from './components/technologies/techonologies.components';
+import Education from './components/education/education.component';
+import Pofrfolio from './components/portfolio/portfolio.component';
 
 function App() {
   return (
@@ -32,9 +35,9 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe/>
-
-      
-      
+      <TechnologyServices/>      
+      <Education/>
+      <Pofrfolio/>
     </div>
   );
 }

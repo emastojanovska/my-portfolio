@@ -10,7 +10,7 @@
     border: 1px solid var(--primary-pink);
   }
   
-  .about-heading {
+  .heading {
     color: var(--primary-pink);
     text-transform: uppercase;
   }

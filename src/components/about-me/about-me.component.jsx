@@ -13,7 +13,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12 about-me-section-2">
-          <h1 className="about-heading mb-5 text-center">About me</h1>
+          <h1 className="heading mb-5 text-center">About me</h1>
           <p className="about-me-text">
             Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
 
