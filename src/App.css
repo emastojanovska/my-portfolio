@@ -7,7 +7,10 @@
   --primary-white: #fff;
   --primary-pink: #f542a7;
   --primary-dark: rgba(255, 255, 255, 0);
-  --primary-black: rgb(15, 15, 15)
+  --primary-black: rgb(15, 15, 15);
+  --primary-grey: rgb(52, 58, 64);
+  --primary-light-grey: #f4f4f4;
+  --primary-red: #ff347856;
 }
 .App {
   text-align: center;

@@ -7,6 +7,7 @@ import AboutMe from './components/about-me/about-me.component';
 import TechnologyServices from './components/technologies/techonologies.components';
 import Education from './components/education/education.component';
 import Pofrfolio from './components/portfolio/portfolio.component';
+import Contact from './components/contact/contact.component';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <TechnologyServices/>      
       <Education/>
       <Pofrfolio/>
+      <Contact/>
     </div>
   );
 }
