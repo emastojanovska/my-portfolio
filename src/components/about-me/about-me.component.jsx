@@ -4,7 +4,7 @@ import './about-me.styles.css'
 
 const AboutMe = () => {
     return(
-        <div className="container py-5">
+      <div className="container py-5 about-wrap" id="about">
       <div className="row">
         <div className="col-lg-6 col-xm-12 ">
           <div className="photo-wrap mb-5">
@@ -15,17 +15,16 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12 about-me-section-2">
           <h1 className="heading mb-5 text-center">About me</h1>
           <p className="about-me-text">
-            Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
-
-            I create responsive websites that are displayed on all devices desktops and smartphones.
-
-            Of course, before I begin developing any webapp, Landing Page, Business Website or E-commerce, I need to have a ready-made project layout (sketch).
-
-            And I’m ready to do this for you, before we start developing your website, we will discuss all the  details of your niche with you, I will conduct a survey of your competitors and make a list of their advantages and weaknesses.
-
-            All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better!
-
-            After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords and Facebook!
+          Hello! I’m Ema. I’m a software engineer with big passion for 
+          creating quality software, working on great projects and coding fun things.
+            I am currently in my last year at Faculty of Computer Science and Engineering in Skopje
+             where I’m studying Software engineering and information systems. I have an excellent 
+             knowledge for planning, implementing and maintaining creative software solutions.
+              Besides of writing clean, logical, high- quality code, I also focus on software 
+              analysis, choosing the right architecture, use the right design principles and 
+              patterns. My goal is to gain a lot of knowledge and develop the best practices 
+              of creating reusable, extensible code with tremendous performance. I love working with
+               people on diverse projects, sharing ideas for the things I’m passionate about and enhancing the knowledge for the newest technologies out there. 
           </p>
         </div>
       </div>

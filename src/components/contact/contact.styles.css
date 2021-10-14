@@ -76,8 +76,9 @@
   
   .error-message {
     color: var(--primary-white);
-    background: var(--primary-red);
+    background: var(--primary-black);
     text-align: left;
+    font-style: italic;
   }
   
   

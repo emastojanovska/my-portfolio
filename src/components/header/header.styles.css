@@ -3,7 +3,7 @@
     background: url(../../assets/9.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
   }
   
   .main-info {
@@ -67,6 +67,7 @@
 }
 
 .btn-main-offer:hover {
+  cursor: pointer;
   text-decoration: none;
   background-color: var(--primary-pink);
   border:none;

@@ -3,7 +3,7 @@ import './education.styles.css'
 
 const Education = () => {
   return (
-    <div className="experience">
+    <div className="experience" id="education">
       <div className="d-flex justify-content-center my-5">
         <h1>Education</h1>
       </div>
@@ -12,7 +12,9 @@ const Education = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2014-2018</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>SUGS Nikola Karev, Skopje
+            
+            </p>
           </div>
         </div>
         {/* - */}
@@ -20,15 +22,15 @@ const Education = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2017-2018</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
-          </div>
+           <p> Course of coding in C++ in Education Center "Визија", Skopje</p>
+           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2018-2021</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <h3>2018-2022</h3>
+            <p>Faculty of Computer Science and Engineering in Skopje, Software engineering and information systems.</p>
           </div>
         </div>
         {/* - */}
@@ -36,7 +38,7 @@ const Education = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2021-now</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>Zero to Mastery Academy </p>
           </div>
         </div>
         

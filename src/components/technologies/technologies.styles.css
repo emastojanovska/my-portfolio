@@ -3,6 +3,7 @@
     text-align: center;
     padding-bottom: 2rem;
     background: var(--primary-black);
+    height: 100vh;
   }
   
   .services h1 {
@@ -47,6 +48,10 @@
   @media(max-width: 800px) {
     .box{
      margin: 0 12%;
+    }
+
+    .services{
+      height: 200vh;
     }
     
   }

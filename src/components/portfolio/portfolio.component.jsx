@@ -1,8 +1,10 @@
 import React from "react";
-import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import shopify from "../../assets/shopify.jpg";
+import cinemaTicketsIS from "../../assets/cinema_tickets_IS.jpg"
+import crwnEshop from "../../assets/crwn-eshop.jpg";
+import portfolio from "../../assets/portfolio.jpg";
+import moviesDDD from "../../assets/movies-DDD.jpg";
+import tripTour from "../../assets/trip.jpg";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -13,121 +15,167 @@ import './portfolio.styles.css'
 
 const Pofrfolio = () => {
 
-    // Netflix
-  const openPopupboxNetflix = () => {
+    // Shopify
+  const openPopupboxShopify = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+        <img className="portfolio-image-popupbox" src={shopify} alt="Shopify Clone Project..." />
+        <p></p>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/emastojanovska/online-shops")}>https://github.com/emastojanovska/online-shops</a>
       </>
     )
-    PopupboxManager.open({ content })
+    PopupboxManager.open({ content,
+    config: {
+      titleBar: {
+        enable: true,
+        text: "Shopify ASP.NET MVC Application"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    }})
   }
 
-  const popupboxConfigNetflix = {
-    titleBar: {
-      enable: true,
-      text: "Netflix clone project."
-    },
-    fadeIn: true,
-    fadeInSpeed: 500
-  }
+ 
 
-  // City Guide App
-  const openPopupboxCityGuide = () => {
+  // Cinema Tickets IS
+  const openPopupboxCinema = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.com/", "_blank")}>https://city-guide-app-project.herokuapp.com/</a>
+        <img className="portfolio-image-popupbox" src={cinemaTicketsIS} alt="Cinema Management Microservices..." />
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/emastojanovska/cinema-tickets-application", "_blank")}>https://github.com/emastojanovska/cinema-tickets-application</a>
       </>
     )
-    PopupboxManager.open({ content })
+    PopupboxManager.open({ content,
+    config: {
+      titleBar: {
+        enable: true,
+        text: "Cinema Tickets Management ASP.NET Core Application"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    }})
   }
 
-  const popupboxConfigCityGuide = {
-    titleBar: {
-      enable: true,
-      text: "City Guide App project."
-    },
-    fadeIn: true,
-    fadeInSpeed: 500
+
+
+  // crwnEshop Project
+  const openPopupboxCrwnEshop = () => {
+    const content = (
+      <>
+        <img className="portfolio-image-popupbox" src={crwnEshop} alt="Portfolio Project..." />
+        <p></p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://crwn-live-eshop.herokuapp.com/", "_blank")}>https://crwn-live-eshop.herokuapp.com/</a>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/emastojanovska/react-eshop", "_blank")}>https://github.com/emastojanovska/react-eshop</a>
+      </>
+    )
+    PopupboxManager.open({ content,
+    config: {
+      titleBar: {
+        enable: true,
+        text: "Eshop React and Node.js Application"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    }})
   }
 
-  // Portfolio Project
+  // Movies DDD
+  
+  const openPopupboxMoviesDDD = () => {
+    const content = (
+      <>
+        <img className="portfolio-image-popupbox" src={moviesDDD} alt="..." />
+        <p></p>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/emastojanovska/cinema-management-ddd", "_blank")}>https://github.com/emastojanovska/cinema-management-ddd</a>
+      </>
+    )
+    PopupboxManager.open({ content,
+    config: {
+      titleBar: {
+        enable: true,
+        text: "Cinema Management Domain Driven Design Java Springboot"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    }})
+  }
+
+  
+
+  // Portfolio
+  
   const openPopupboxPortfolio = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
-      </>
-    )
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigPortfolio = {
-    titleBar: {
-      enable: true,
-      text: "Poftfolio React and Material UI project."
-    },
-    fadeIn: true,
-    fadeInSpeed: 500
-  }
-
-  // Task Manager React and Redux Project
-  const openPopupboxTaskManager = () => {
-    const content = (
-      <>
-        <img className="portfolio-image-popupbox" src={taskManager} alt="Task Manager React and Redux Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+        <img className="portfolio-image-popupbox" src={portfolio} alt="..." />
+        <p></p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/emastojanovska/my-portfolio", "_blank")}>https://github.com/emastojanovska/my-portfolio</a>
       </>
     )
-    PopupboxManager.open({ content })
+    PopupboxManager.open({ content,
+    config: {
+      titleBar: {
+        enable: true,
+        text: "My Portfolio React Application"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    } })
   }
 
-  const popupboxConfigTaskManager = {
-    titleBar: {
-      enable: true,
-      text: "hi."
-    },
-    fadeIn: true,
-    fadeInSpeed: 500
-  }
 
+  // Trip Tour
+  
+  const openPopupboxTripTour = () => {
+    const content = (
+      <>
+        <img className="portfolio-image-popupbox" src={tripTour} alt="Trip Tours Project..." />
+        <p></p>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/MarkoMarkovikj/proektDians", "_blank")}>https://github.com/MarkoMarkovikj/proektDians</a>
+      </>
+    )
+    PopupboxManager.open({ content,
+    config: {
+      titleBar: {
+        enable: true,
+        text: "Trip Routes Java Springboot Web Application"
+      },
+      fadeIn: true,
+      fadeInSpeed: 500
+    }})
+  }
 
   return (
-    <div className="portfolio-wrapper">
+    <div className="portfolio-wrapper" id="portfolio">
       <div className="container-fluid justify-content-center">
         <h1 className="text-uppercase text-center py-5">My work</h1>
         <div className="row justify-content-center">
 
             <div className="col-md-3 col-sm-6">
-                <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
-                    <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
+                <div className="portfolio-image-box" onClick={openPopupboxShopify}>
+                    <img className="portfolio-image" src={shopify} alt="Shopify Clone Project..." />
                     <div className="overflow"></div>
         
                 </div>
+                
             </div>
 
             <div className="col-md-3 col-sm-6">
-                <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-                    <img className="portfolio-image" src={cityGuide} alt="City Guide Project..." />
+                <div className="portfolio-image-box" onClick={openPopupboxCinema}>
+                    <img className="portfolio-image" src={cinemaTicketsIS} alt="City Guide Project..." />
                     <div className="overflow"></div>
                 </div>
             </div>
 
             <div className="col-md-3 col-sm-6">
-                <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-                    <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+                <div className="portfolio-image-box" onClick={openPopupboxCrwnEshop}>
+                    <img className="portfolio-image" src={crwnEshop} alt="Portfolio React and Material UI Project..." />
                     <div className="overflow"></div>
                 </div>
             </div>
@@ -136,32 +184,31 @@ const Pofrfolio = () => {
         <div className="row justify-content-center">
 
             <div className="col-md-3 col-sm-6">
-                <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-                    <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+                <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
+                    <img className="portfolio-image" src={portfolio} alt="..." />
                     <div className="overflow"></div>
                 </div>
             </div>
 
             <div className="col-md-3 col-sm-6">
-                <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-                    <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+                <div className="portfolio-image-box" onClick={openPopupboxMoviesDDD}>
+                    <img className="portfolio-image" src={moviesDDD} alt="..." />
                     <div className="overflow"></div>
                 </div>
             </div>
 
             <div className="col-md-3 col-sm-6">
-                <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-                    <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+                <div className="portfolio-image-box" onClick={openPopupboxTripTour}>
+                    <img className="portfolio-image" src={tripTour} alt="..." />
                     <div className="overflow"></div>
                 </div>
             </div>
         </div>
         
       </div>
-      <PopupboxContainer {...popupboxConfigNetflix} />
-      <PopupboxContainer {...popupboxConfigCityGuide} />
-      <PopupboxContainer {...popupboxConfigPortfolio} />
-      <PopupboxContainer {...popupboxConfigTaskManager} />
+      
+      <PopupboxContainer/>
+    
 
     </div>
   )

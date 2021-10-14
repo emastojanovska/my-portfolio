@@ -62,6 +62,10 @@
     transition: 0.3s ease-in-out;
     cursor: zoom-in;
   }
+
+  .popupbox-wrapper {
+    margin-top: 7rem;
+  }
   
   /*------------ OVERFLOW BOX ------------------*/
   .portfolio-image-popupbox {

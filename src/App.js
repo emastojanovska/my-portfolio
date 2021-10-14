@@ -8,6 +8,7 @@ import TechnologyServices from './components/technologies/techonologies.componen
 import Education from './components/education/education.component';
 import Pofrfolio from './components/portfolio/portfolio.component';
 import Contact from './components/contact/contact.component';
+import Footer from './components/footer/footer.component'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Education/>
       <Pofrfolio/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
